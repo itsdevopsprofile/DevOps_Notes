@@ -1,5 +1,14 @@
 # Git Notes
 
+## What is Git?
+Git is a **distributed version control system (DVCS)** that helps track changes, collaborate, and manage project versions efficiently.
+
+## Uses of Git:
+- **Tracks changes** – Keeps a history of code updates.
+- **Collaboration** – Multiple developers can work together.
+- **Branching & Merging** – Develop features independently.
+- **Backup & Security** – Prevents data loss with local copies.
+- **CI/CD Integration** – Automates testing and deployment.
 
 
 
