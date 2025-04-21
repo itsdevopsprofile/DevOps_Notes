@@ -4,10 +4,12 @@
 
 
 #### Git Working
-![image](https://github.com/user-attachments/assets/b859c770-3efc-48c4-8d77-34508fc51d22)
+![image](https://github.com/user-attachments/assets/ff4ea8a5-9c26-4a41-8ab9-abcefe5d66d9)
 
-#### Git Basic Commands
-- To initialize empty git repository
+
+#### Push changes from local to remote repository
+- create dir 
+- To initialize empty git repository use following command
 ```
 git init
 ```
@@ -40,7 +42,7 @@ git log
 ```
 - Push using  remote repo
 ```
-git remote add origin https://github.com/abhipraydhoble/Devops-B-fourtyone.git
+git remote add origin https://github.com/itsdevopsprofile/DevOps_Notes.git
 ```
 - Verify
 ```
@@ -49,28 +51,29 @@ git remote -v
 - Note: Make sure to generate github token before pushing to remote
 - go to github profile ->settings->developer setting->personal access token-> token classic->generate new
   
-![image](https://github.com/user-attachments/assets/2c0ab9dc-5dda-408d-b219-f37f14fcae44)
 
-- copy token to somewhere for future use
+- copy token and save somewhere for future use
 
 - Push to Remote repository
 ```
 git push origin master
 ```
 - it will ask for username and token
+- enter username
+- enter github-token
 
 ## Git Day 2
 ### Git Clone Using HTTPs and SSH Method:
 
 **1. HTTPS**: 
 ```
-git clone https://github.com/abhipraydhoble/gitdayone.git
+git clone https://github.com/itsdevopsprofile/DevOps_Notes.git
 ```
 ![image](https://github.com/user-attachments/assets/f98b0cce-9000-429a-a34c-86297f535e8c)
 
 **2. SSH**
 ```
-git clone git@github.com:abhipraydhoble/gitdayone.git
+git clone git@github.com:itsdevopsprofile/DevOps_Notes.git
 ```
 ![image](https://github.com/user-attachments/assets/4a344a9c-de4e-47b8-bec9-65d54f992771)
 
@@ -126,12 +129,12 @@ git cherry-pick <commmit-id>
 
 #### Pull: merge remote changes to local repo
 ````
-git pull https://github.com/abhipraydhoble/devops-b41.git
+git pull https://github.com/itsdevopsprofile/DevOps_Notes.git
 ````
 
 #### Fetch : Update changes from remote to local
 ````
-git fetch https://github.com/abhipraydhoble/devops-b41.git
+git fetch https://github.com/itsdevopsprofile/DevOps_Notes.git
 ````
 #### Stash: save work
 ````
