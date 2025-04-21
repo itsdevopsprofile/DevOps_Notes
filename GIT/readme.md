@@ -16,76 +16,28 @@ Git is a **distributed version control system (DVCS)** that helps track changes,
 ![image](https://github.com/user-attachments/assets/ff4ea8a5-9c26-4a41-8ab9-abcefe5d66d9)
 
 
-#### Push changes from local to remote repository
-- create dir 
-- To initialize empty git repository use following command
-```
-git init
-```
-- Congfigure Username and EmailID
-```
-git config --global user.email "testemail@gmail.com"
-git config --global user.name "abhi"
-git config --global --list
-```
 
-- create test file
-```
-touch index.html
-```
-- Add newly created file to staging area
-```
-git add index.html
-```
-- Verify file added to staging area or not
-```
-git status
-```
-- Commit file to local repository
-```
-git commit -m "message"
-```
-- verify commmit
-```
-git log
-```
-- Push using  remote repo
-```
-git remote add origin https://github.com/itsdevopsprofile/DevOps_Notes.git
-```
-- Verify
-```
-git remote -v
-```
-- Note: Make sure to generate github token before pushing to remote
-- go to github profile ->settings->developer setting->personal access token-> token classic->generate new
-  
 
-- copy token and save somewhere for future use
 
-- Push to Remote repository
-```
-git push origin master
-```
-- it will ask for username and token
-- enter username
-- enter github-token
 
-## Git Day 2
 ### Git Clone Using HTTPs and SSH Method:
 
-**1. HTTPS**: 
+**1. HTTPS**: (github username and token required to push changes to gitub)
 ```
 git clone https://github.com/itsdevopsprofile/DevOps_Notes.git
 ```
-![image](https://github.com/user-attachments/assets/f98b0cce-9000-429a-a34c-86297f535e8c)
 
-**2. SSH**
+**Create Github token**
+- go to **github profile ->settings->developer setting->personal access token-> token classic->generate new**
+- copy token and save somewhere for future use
+- 
+**2. SSH**: (doesnt require any credentials to push changes)
+- create ssh keypair
+- copy public key and paste to **github profile ->settings->developer setting->ssh&gpg keys->add-key**
+- then clone via ssh method
 ```
 git clone git@github.com:itsdevopsprofile/DevOps_Notes.git
 ```
-![image](https://github.com/user-attachments/assets/4a344a9c-de4e-47b8-bec9-65d54f992771)
-
 
 ### Branching Strategy:
 
