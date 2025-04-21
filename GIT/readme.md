@@ -90,7 +90,7 @@ git clone git@github.com:itsdevopsprofile/DevOps_Notes.git
 ### Branching Strategy:
 
 
-- **Master** – Holds the stable, production-ready code.
+- **Main** – Holds the stable, production-ready code.
 - **Develop** – Main branch for ongoing development.
 - **Feature Branches** – Created from `develop` to build new features.
 - **Release Branches** – Branched from `develop` for final bug fixes before merging into `master` and `develop`.
