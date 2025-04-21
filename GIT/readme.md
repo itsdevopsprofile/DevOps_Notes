@@ -80,7 +80,8 @@ git clone git@github.com:itsdevopsprofile/DevOps_Notes.git
 
 ### Branching Strategy:
 
-![image](https://github.com/user-attachments/assets/f298ab63-78e6-4e27-8a9a-e6d01e0ed4a9)
+![image](https://github.com/user-attachments/assets/ecc0c9a6-b972-4962-bc9c-8c05cf70ed9e)
+
 
 #### check current branch
 ```
