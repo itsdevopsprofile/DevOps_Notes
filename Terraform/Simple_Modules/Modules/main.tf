@@ -1,0 +1,18 @@
+module "vpc" {
+    source = "./modules/vpc"
+    vpc_cidr_block = "192.168.0.0/16"
+    subnet_cidr_block = ["192.168.0.0/23", "192.168.2.0/23"]
+    az = ["ap-southeast-1a", "ap-southeast-1b"]
+    public_ip = true 
+    no_ip = false
+}
+
+module "ec2" {
+    source = "./modules/ec2"
+    ami_id = "ami-05ab12222a9f39021"
+    instance_type = "t2.micro"
+    pri_subnet_id = module.vpc.pri_subnet_id
+    pub_subnet_id = module.vpc.pub_subnet_id
+    security_group_ids = module.vpc.security_group_id
+  
+}
