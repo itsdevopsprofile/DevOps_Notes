@@ -1,7 +1,7 @@
 #  $${\color{blue} \textbf{Docker 🐳}}$$
 
 
-##  ${\color{lightblue} \textbf{ Monolithic \ vs \ Microservises}}$
+##  ${\color{red} \textbf{ Monolithic \ vs \ Microservises}}$
 
 | **Aspect**                  | **Monolithic Architecture**                             | **Microservices Architecture**                          |
 |-----------------------------|---------------------------------------------------------|----------------------------------------------------------|
