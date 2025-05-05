@@ -1,8 +1,4 @@
-#  $${\color{lightlightblue} \textbf{Docker 🐳}}$$
-
-![image](https://github.com/user-attachments/assets/4ed9c2f2-a103-42eb-84b6-473d1046c90b)
-
-
+#  $${\color{blue} \textbf{Docker 🐳}}$$
 
 
 ##  ${\color{lightblue} \textbf{ Monolithic \ vs \ Microservises}}$
@@ -20,28 +16,6 @@
 | **Disadvantages**           | Inflexible, slower scaling, tech limitations            | Complexity in management, increased overhead             |
 | **Use Cases**               | Small-medium apps, simpler needs                        | Large, complex apps needing flexibility and scalability |
 
-
-
-**Docker Exit Codes**
-
-
-| CODE #   | NAME                                | WHAT IT MEANS                                                                              |
-|----------|-------------------------------------|---------------------------------------------------------------------------------------------|
-| 0        | Purposely stopped                   | Used by developers to indicate that the container was automatically stopped                 |
-| 1        | Application error                   | Container was stopped due to application error or incorrect reference in the image spec     |
-| 125      | Container failed to run error       | The docker run command did not execute successfully                                         |
-| 126      | Command invoke error                | A command specified in the image specification could not be invoked                          |
-| 127      | File or directory not found         | File or directory specified in the image specification was not found                         |
-| 128      | Invalid argument used on exit       | Exit was triggered with an invalid exit code (valid codes are integers between 0-255)       |
-| 134      | Abnormal termination (SIGABRT)     | The container aborted itself using the abort() function.                                     |
-| 137      | Immediate termination (SIGKILL)     | Container was immediately terminated by the operating system via SIGKILL signal               |
-| 139      | Segmentation fault (SIGSEGV)        | Container attempted to access memory that was not assigned to it and was terminated           |
-| 143      | Graceful termination (SIGTERM)      | Container received warning that it was about to be terminated, then terminated                |
-| 255      | Exit Status Out Of Range            | Container exited, returning an exit code outside the acceptable range, meaning the cause of the error is not known |
-
-
-
-![image](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/7fcb6dc3-dfcd-4a00-9349-91b16869bd39)
 
 
 ${\color{Green} \textbf{1. \ Developement \ Team:}}$ Responsible for writing code
@@ -66,7 +40,7 @@ ${\color{Red} \textbf{3. \ Operations \ Team:}}$ Responsible for providing infra
   
   ${\color{Orange} \textbf{2. Test}}$ : Where testers ensure the code works correctly
   
-  ${\color{Yellow} \textbf{3. UAT (User Acceptance Testing)}}$ : Where customer will test the product
+  ${\color{purple} \textbf{3. UAT (User Acceptance Testing)}}$ : Where customer will test the product
   
   ${\color{Red} \textbf{4. Prod}}$ : Where the final product runs for end-users.
 
@@ -74,7 +48,7 @@ ${\color{Red} \textbf{3. \ Operations \ Team:}}$ Responsible for providing infra
 - To avoid these kind of environmental issues we are using docker
 - Whatever the softwares we required is install using docker
   
-##  ${\color{lightblue} \textbf{ Que. \ What \ is \ Docker \?}}$
+##  ${\color{blue} \textbf{ Que. \ What \ is \ Docker \?}}$
 ${\color{lightblue}  \textbf{Docker}}$ 
 - is an open source platform for developing, shipping and running applications in containers.
 - containers are lightweight, isolated environments that package application and their dependencies together.
@@ -88,7 +62,7 @@ ${\color{lightblue}  \textbf{Docker}}$
 
 
 
-  ##  ${\color{lightblue} \textbf{On-Premises \ vs. \ Virtual Machines \ (VMs)}}$ 
+  ##  ${\color{blue} \textbf{On-Premises \ vs. \ Virtual Machines \ (VMs)}}$ 
 
 | Feature                    | On-Premises                                      | Virtual Machines (VMs)                          |
 |----------------------------|--------------------------------------------------|-------------------------------------------------|
@@ -111,7 +85,7 @@ ${\color{lightblue}  \textbf{Docker}}$
 
 
 
-##  ${\color{lightblue} \textbf{Virtual Machines (VMs) \ vs. \  Containers)}}$
+##  ${\color{blue} \textbf{Virtual Machines (VMs) \ vs. \  Containers)}}$
 
 | Feature                   | Virtual Machines (VMs)                               | Containers                                     |
 |---------------------------|------------------------------------------------------|------------------------------------------------|
@@ -135,20 +109,13 @@ ${\color{lightblue}  \textbf{Docker}}$
 
 
 
-##  ${\color{lightblue} \textbf{docker \ architecture}}$ 
+##  ${\color{blue} \textbf{docker \ architecture}}$ 
+
+![image](https://github.com/user-attachments/assets/41b536af-47eb-4942-b319-a2eaa4786fe0)
 
 
 
-
-![docker architecture](https://github.com/abhipraydhoble/devops-B-34/assets/122669982/5f9d4992-8282-4bd5-8e3f-640e715c737c)
-
-![image](https://github.com/user-attachments/assets/8f7e3d5c-bbd1-483e-b7dc-a05f5241838d)
-
-
-
-
-
-##  ${\color{lightblue} \textbf{Installation-Steps  \ (Amazon-Linux)}}$ 
+##  ${\color{blue} \textbf{Installation-Steps  \ (Amazon-Linux)}}$ 
 
 
 ````
@@ -162,6 +129,23 @@ newgrp docker
 docker --version
 ````
 
+
+**Docker Exit Codes**
+
+
+| CODE #   | NAME                                | WHAT IT MEANS                                                                              |
+|----------|-------------------------------------|---------------------------------------------------------------------------------------------|
+| 0        | Purposely stopped                   | Used by developers to indicate that the container was automatically stopped                 |
+| 1        | Application error                   | Container was stopped due to application error or incorrect reference in the image spec     |
+| 125      | Container failed to run error       | The docker run command did not execute successfully                                         |
+| 126      | Command invoke error                | A command specified in the image specification could not be invoked                          |
+| 127      | File or directory not found         | File or directory specified in the image specification was not found                         |
+| 128      | Invalid argument used on exit       | Exit was triggered with an invalid exit code (valid codes are integers between 0-255)       |
+| 134      | Abnormal termination (SIGABRT)     | The container aborted itself using the abort() function.                                     |
+| 137      | Immediate termination (SIGKILL)     | Container was immediately terminated by the operating system via SIGKILL signal               |
+| 139      | Segmentation fault (SIGSEGV)        | Container attempted to access memory that was not assigned to it and was terminated           |
+| 143      | Graceful termination (SIGTERM)      | Container received warning that it was about to be terminated, then terminated                |
+| 255      | Exit Status Out Of Range            | Container exited, returning an exit code outside the acceptable range, meaning the cause of the error is not known |
 
 
 
