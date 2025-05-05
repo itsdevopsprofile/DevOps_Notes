@@ -120,15 +120,27 @@ ${\color{lightblue}  \textbf{Docker}}$
 
 ````
 sudo yum update -y
-sudo yum install -y docker
-sudo service docker start
-sudo usermod -a -G docker ec2-user
+sudo yum install docker -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker ec2-user
 newgrp docker
+sudo chmod 777 /var/run/docker.sock
 ````
 ````
 docker --version
 ````
+##  ${\color{blue} \textbf{Installation-Steps  \ (Ubuntu)}}$ 
 
+````
+sudo apt update -y
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker ubuntu
+newgrp docker
+sudo chmod 777 /var/run/docker.sock
+````
 
 **Docker Exit Codes**
 
