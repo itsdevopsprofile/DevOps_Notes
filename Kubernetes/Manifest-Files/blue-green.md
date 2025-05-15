@@ -48,8 +48,9 @@ spec:
 ````
 kubectl apply -f service.yaml
 ````
+![image](https://github.com/user-attachments/assets/bb4c2ff0-1aac-4ad8-a70e-f719193ddeff)
 
-![image](https://github.com/user-attachments/assets/00ab54bf-da1a-4a4b-bcd6-9bea18602555)
+
 
 ---
 # green-dep.yaml
@@ -81,8 +82,7 @@ spec:
 ### if you want to switch from blue to green just change selector in service.yaml
 
 # edit service.yaml
-````
-# service.yaml
+
 ````
 apiVersion: v1
 kind: Service
@@ -97,7 +97,7 @@ spec:
     targetPort: 80
  type: LoadBalancer
 ````
-![image](https://github.com/user-attachments/assets/309d8554-45db-49e4-bb2b-b7a7af420357)
 
+![image](https://github.com/user-attachments/assets/00ab54bf-da1a-4a4b-bcd6-9bea18602555)
 
 
