@@ -2,7 +2,7 @@
 
 
 
-# java installation steps
+# jenkins installation steps
 
 ````
 sudo apt update
