@@ -12,7 +12,7 @@
   
 
 **Jenkins Node**
-- Create directory with name /jenkins
+- Create directory with name /home/ubuntu/jenkins
 - give permission 777
 - install java
 ````
@@ -27,6 +27,9 @@
 
 **Jenkins Node Setup**
 ![image](https://github.com/user-attachments/assets/1a9793dc-cf9b-480d-81c2-7c2d1d582f79)
+
+
+
 ![image](https://github.com/user-attachments/assets/8ddefb2c-66a9-4ba1-a1aa-31218237cb8d)
 ![image](https://github.com/user-attachments/assets/e62a3690-66a7-473f-940f-5bf5b615c031)
 
