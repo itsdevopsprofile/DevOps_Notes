@@ -303,22 +303,27 @@ Better Availability
 
 Cost Optimization
 ---
+
 Q41) What are Security Groups?
 Answer:
 Security groups act as virtual firewalls for your EC2 instances. They control inbound and outbound traffic using allow rules. You can attach multiple groups to an instance.
 ---
+
 Q42) What are Shared AMIs?
 Answer:
 Shared AMIs are Amazon Machine Images created by other developers and made available publicly or privately for others to use.
 ---
+
 Q43) By default, how many IP addresses does AWS reserve in a subnet?
 Answer:
 AWS reserves 5 IP addresses in each subnet.
 ---
+
 Q44) What is meant by a subnet?
 Answer:
 A subnet is a segmented piece of a larger IP network. In AWS, subnets allow you to divide your VPC's IP range into smaller, manageable networks.
 ---
+
 Q45) How can you convert a public subnet to a private subnet?
 Answer:
 
