@@ -1,4 +1,3 @@
----
 
 **Q1) What is AWS?**
 **Answer:** AWS stands for Amazon Web Services. AWS is a platform that provides on-demand resources for hosting web services, storage, networking, databases, and other resources over the internet with a pay-as-you-go pricing model.
