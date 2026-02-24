@@ -1,8 +1,5 @@
 <img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/1421161a-a21d-44da-97f9-0a4d5fb832cf" />
 
-
-# Terraform
-
 Terraform is an open-source "infrastructure as code" (IaC) tool by HashiCorp that enables developers to 
 define, provision, and manage cloud/on-premise resources (like servers, databases, networking) 
 using declarative configuration files. It automates infrastructure lifecycles, allowing for consistent, 
