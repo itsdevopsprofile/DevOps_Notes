@@ -1,15 +1,19 @@
-<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/a114d8e9-64e2-4247-86b3-cc9318397655" />
+<img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/1421161a-a21d-44da-97f9-0a4d5fb832cf" />
 
-# Terraform 
-is an open-source "infrastructure as code" (IaC) tool by HashiCorp that enables developers to 
+
+# Terraform
+
+Terraform is an open-source "infrastructure as code" (IaC) tool by HashiCorp that enables developers to 
 define, provision, and manage cloud/on-premise resources (like servers, databases, networking) 
 using declarative configuration files. It automates infrastructure lifecycles, allowing for consistent, 
 version-controlled deployment across multiple providers like AWS, Azure, and GCP. 
+
 ---
 ## Key Aspects of Terraform
 **Infrastructure as Code (IaC):** 
 Instead of manually configuring cloud resources, you write human-readable definition files that describe the desired end state.
 Declarative Approach: You define what the infrastructure should look like, and Terraform determines how to achieve that state.
+
 ---
 **Provider Ecosystem:** 
 Terraform uses plugins called providers to interact with cloud providers (AWS, Azure, Google Cloud, etc.), SaaS providers, and other services via APIs.
