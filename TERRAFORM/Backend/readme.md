@@ -1,4 +1,4 @@
-# s3 backend with state locking 
+<img width="1437" height="603" alt="image" src="https://github.com/user-attachments/assets/6fd6c092-33c1-402e-a38d-82e85a0ada77" />
 
 ---
 ### step1: install terraform
