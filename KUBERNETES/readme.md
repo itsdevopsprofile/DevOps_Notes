@@ -45,3 +45,7 @@ kubectl expose pod pod-1  --port=80 --target-port=80 --type=NodePort
 ````
 kubectl get svc
 ````
+<img width="1905" height="460" alt="image" src="https://github.com/user-attachments/assets/dae3631d-acd2-410d-9e7e-f3f1462b41d3" />
+<img width="1916" height="762" alt="image" src="https://github.com/user-attachments/assets/fb293319-11a0-44c1-b3c5-0b65fc7c656a" />
+<img width="1736" height="132" alt="image" src="https://github.com/user-attachments/assets/c324c929-28f8-4efd-9d45-e8581b21ec95" />
+
