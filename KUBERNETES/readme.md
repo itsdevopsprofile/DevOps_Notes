@@ -40,6 +40,7 @@ kubectl run pod-1 --image=devopsprofile/netflix
 ````
 kubectl expose pod pod-1  --port=80 --target-port=80 --type=NodePort
 ````
+<img width="1210" height="413" alt="image" src="https://github.com/user-attachments/assets/8bb7f9c5-d69b-40d5-8708-555ab9274f2c" />
 
 ### list service
 ````
