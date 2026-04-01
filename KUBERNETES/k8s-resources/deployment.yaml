@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: first-dep
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels: 
+        app: nginx
+    spec:
+      containers:
+        - name: c1 
+          image: nginx 
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-dep-1
+spec:
+  selector:
+    app: nginx 
+  ports:
+    - protocol: "TCP"
+      port: 80
+      targetPort: 80
+  type: NodePort
