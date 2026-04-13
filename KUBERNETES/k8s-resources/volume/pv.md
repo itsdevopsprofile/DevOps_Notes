@@ -1,3 +1,6 @@
+<img width="1287" height="705" alt="image" src="https://github.com/user-attachments/assets/c4cdbc67-d935-42d8-b45d-33001f870d26" />
+
+
 ## Persistent Volume 
 ````
 vim pv.yaml
