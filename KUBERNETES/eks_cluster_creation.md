@@ -51,7 +51,7 @@ aws configure
 
 **5:Create Amazon EKS cluster using eksctl**
 ````
-eksctl create cluster --name dev-ekscluster --region ap-southeast-1 --version 1.35 --nodegroup-name linux-nodes --node-type t2.medium --nodes 1
+eksctl create cluster --name test-ekscluster --region ap-southeast-1 --version 1.35 --nodegroup-name linux-nodes --node-type c7i-flex.large --nodes 1
 ````
 **6: Log In Into EKS cluster**
 ````
